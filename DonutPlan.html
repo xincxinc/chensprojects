@@ -13,7 +13,10 @@
         <link rel="shortcut icon" type="image/png" href="IMG/favicon.png">
         
         <!-- FONT -->
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Literata:400,500i,700,700i&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Literata:400,500i,700,700i|Nunito:400,700,800&display=swap" rel="stylesheet">
+
+        <!-- SCRIPT-->
+        <script src="JS/script.js"></script>
 
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -27,10 +30,26 @@
             background-size: cover;
             height: 50vh;
         }
-        </style> 
-        <!-- SCRIPT-->
-        <script src="JS/script.js"></script>
 
+        .pre{
+            background-color: #7AC5E1;background-image: url('IMG/donut.png'); background-repeat: no-repeat; overflow: auto;
+        }
+        .pre > .donutContent{
+            width: 80%; margin: 10vh auto 0 auto;
+            font-family: 'Nunito',sans-serif;
+        }
+        .pre img{
+            width: 300px; margin: 5vh 12vw;
+        }
+        .donutContent h3{
+            font-weight: 800; font-size: 35px; color: #FFD600;
+        }
+        .donutContent p{
+            margin: 10vh 0; font-weight: 700; color: white; font-size: x-large;
+        }
+
+        </style> 
+        
     </head>
 
     <body>
@@ -58,7 +77,7 @@
             </div>
 
             <section>
-              <h2 style="text-align: center;">If you search "fitness" in the app store, you'll find many apps with...</h2>
+              <h2>If you search "fitness" in the app store, you'll find many apps with...</h2>
               <ul style="display: flex; justify-content: space-between; list-style: none; color:#FFD600; font-size: 30px;">
                   <li>"muscles"</li>
                   <li>"perfect shapes"</li>
@@ -66,11 +85,11 @@
                   <li>"challenges"</li>
               </ul>
               <img class="center" src="IMG/donut_fitness.png">
-              <h2 style="text-align: center; margin-top: 10vh;">Here's some hard facts:</h2 style="text-align: center;">
+              <h2>Here's some hard facts:</h2>
                 <p style="text-align: center;">According to WHO, 39% of adults aged 18 years and over were overweight in 2016, and 13% were obese.
                 <br>Accoring to a fitness model: "I probably exercised more than an hour per day 6-7 days per week."</p>
                 <h3 style="text-align: center;">Please allow me to translate these words:<br><br>Many people's figures are not even close to the fitness model. <br>If you don't exercise that hard, you'll never be like them.</h3>
-                <h2 style="text-align: center; margin-top: 10vh;">As a result...</h2>
+                <h2>As a result...</h2>
                 <div style="width: 65%; margin: 7vh auto;padding: 2vh; background-color: beige;">
                    <ul style="list-style: none;">
                     <li>"I couldn't finish a workout. I felt miserable and gave it up."</li>
@@ -85,11 +104,86 @@
             </section>
             
             <section>
-                <h2 style="text-align: center; color:#FFD600; font-size: 2.8vw;">"Donut Plan" provides a new perspective of fitness training.</h2>
-                <p style="text-align: center;"></p>    
+                <h2 style="font-size: 2vw;">"Donut Plan" provides a new perspective of fitness training.</h2>
+            </section>
+        </div>
+
+        <div class="pre">
+            <div class="donutContent">
+                <img src="IMG/donut_pre1.png" style="float: left; ">
+                <div style="float: left; margin-top: 15vh; width: 400px;">
+                    <h3>No Plan, Smart Arrangement</h3>
+                    <p>Workouts are showed in modules. Every module combines workouts with different length and focus. No need to filter and choose a workout everytime. No Need to obey a strict plan.
+                    </p>
+                </div>
+            </div>
+        </div> 
+        
+        <div class="pre" style="background-position: right top;">
+            <div class="donutContent">
+                <img src="IMG/donut_pre2.png" style="float: right;">
+                <div style="float: right; margin-top: 15vh; width: 400px; ">
+                    <h3>Food as Motivation</h3>
+                    <p>Your Training Goals are never so reachable. See how much effort you should make to burn the calories of a Donut.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="pre">
+            <div class="donutContent">
+                <img src="IMG/donut_pre3.png" style="float: left; ">
+                <div style="float: left; margin-top: 15vh; width: 400px;">
+                    <h3>Share What You've Gained</h3>
+                    <p>Tell your friend how many calories you've burned. And maybe it's time for another beer.
+                       Invite your friend to have a beer in a new way. :D
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <section>
+                <h2>- RESEARCH -</h2>
+                <h3>Interviews & Affinity Mapping</h3>
+                <p>I interviewed some people near me in order to know about their experience of doing workout. Most of them are students or office workers. Some have pretty much experience while some very little.</p>
+                <img class="center" style="width: 60%;" src="IMG/donut_affinity.jpg">
+                <h4>Finding</h4>
+                <p>- Experienced people would rather do training in a gym, unless there's no affordable gym nearby.
+                    <br>-  Starters or students with low budget or people with very inactive lifestyle would like to use workout app.
+                    <br>- People don't like too many choices of workouts which make it difficult to start.
+                    <br>- People don't like to receive notifications. They either have fixed plans (eg. doing yoga at 4 p.m. every Saturday) or need very flexible plans.
+                </p>
+
+                <h3>Personas</h3>
+                <p>I synthesized the interviews and built three personas.</p>
+                <img style="float: left; width: 300px; margin: 2vh 7vh;" src="IMG/donut_amanda.png">
+                <img style="float: left; width: 300px; margin: 2vh 7vh;" src="IMG/donut_gina.png">
+                <img style="float: left; width: 300px; margin: 2vh 7vh;" src="IMG/donut_paul.png">
             </section>
 
+            <section>
+                <h2>- DESIGN -</h2>
+                <h3>Sketches</h3>
+                <p>Produced concepts.</p>
+                <img class="center" style="width: 400px;" src="IMG/donut_sketch.jpg">
+
+                <h3 style="margin-top: 10vh;">User Flow</h3>
+                <img class="center" src="IMG/donut_flow.png">
+                
+                <h3 style="margin-top: 10vh;">User Testing and Iterations</h3>
+                <p>There are no user testing and iterations for this project yet.</p>
+            </section>
 
         </div>
+
+        <a class="topBtn" href="#"><i class="fas fa-long-arrow-alt-up"></i></a>
+
+        <footer>
+                <div>&copy Chen Xin 2019 | Contact: <a href="mailto:mia.c.xin@gmail.com?Subject=" target="_top">Email</a></div>
+        </footer>
+
+
+
     </body>
 </html>
