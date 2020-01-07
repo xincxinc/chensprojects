@@ -32,7 +32,7 @@ header{
   font-family: 'Source Sans Pro', sans-serif;
 }
 nav{
-  flex: 0.15;
+  flex: 0.3;
   margin-right: 10%;
 }
 .nav-links{
@@ -145,11 +145,19 @@ a.active-link,a.inactive-link:hover{
   font-weight: 400;
   letter-spacing: 1px;
   position: absolute;
-  top: 30%;
-  left: 40%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  top: 10%;
+  left: 10%;
+  width: 60%;
+ 
+}
+.textsmall{
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-size: 14px;
+  color: white;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  letter-spacing: 0.5px;
 }
 
 footer{
